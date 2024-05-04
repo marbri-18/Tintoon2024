@@ -1,0 +1,156 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.tintoon-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding-left: 5%;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  margin-right: 5px;
+}
+
+#features p span {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+#testimonial {
+  background-color:#ff4c68;
+  color: white;
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+}
+
+#roger-rabbit {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#testimonial h2,
+#testimonial p {
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+#carousel {
+  align-items: center;
+}
+
+.carousel-inner {
+  width: 60%;
+  Margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: #222;
+}
+
+.left-chevron,
+.right-chevron {
+  color: #222;
+  
+}
+
+#pricing {
+  background-color:#ff4c68;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#pricing .container {
+  display: flexbox;
+  justify-content: center;
+  align-items:center;
+}
+
+.card {
+  max-width: 400px;
+  min-width: 300px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.card img {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.card .card-header {
+  background-color: #222;
+}
+
+.card .card-header h4 {
+  color: #ddd;
+  font-size: 1.5 rem;
+}
+
+.card .card-body button {
+  color: #ddd;
+  background-color: #444;
+}
+
+.card .card-body button:hover {
+  background-color: #000;
+}
+
+#footer li a {
+color: #ddd;
+}
+  
+
+
+
